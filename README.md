@@ -6,7 +6,7 @@ It is used to upload a sketch to an ATTINY85 microcontroller using a High-Voltag
 
 The fuses can also be set using this program.
 
-##Use
+## Use
 
 Connect the Arduino to the ATTINY85 as shown at https://www.rickety.us/wp-content/uploads/2010/03/diagram.png
 
