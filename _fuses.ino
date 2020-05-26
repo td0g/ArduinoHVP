@@ -2,7 +2,7 @@
 //See datasheet and http://www.rickety.us/2010/03/arduino-avr-high-voltage-serial-programmer/
 
 void burnFuses(){
-  byte hfuse = 0b01011111; //0xDF;  //Default, ATTINY85 Datasheet pp. 148
+  byte hfuse = 0b11011111; //0xDF;  //Default, ATTINY85 Datasheet pp. 148
   byte lfuse = 0b01100010; //0x62;  //Default
   Serial.println(F("Please select fuse settings"));
   Serial.println(F("0 - Default\n1 - Disable Reset\n2 - 8MHz Clock\n3 - Disable Reset, 8MHz Clock"));
